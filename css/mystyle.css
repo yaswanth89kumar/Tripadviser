@@ -1,0 +1,9 @@
+.ui_header{
+position:fixed;
+width:100%;
+z-index:9999;
+margin-bottom:5%;
+}
+.ui-content{
+margin-top:3%;
+}
