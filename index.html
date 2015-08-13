@@ -3,45 +3,49 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" href="css/mystyle.css">
 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/myscript.js"></script>
+<title>TripAdvisor</title>
 </head>
 <body>
 
 <div data-role="page">
-<div data-role="header">
+<div data-role="header" class='ui_header'>
 <h1>Trip</h1>
 <a href="#myPanel" data-icon="bars" class="ui-link ui-btn ui-btn-a ui-icon-bars ui-btn-icon-notext ui-btn-inline ui-shadow ui-corner-all ui-first-child"></a>
 </div>
 <div data-role="panel" id="myPanel"> 
 <ul data-role="listview">
-<li><a href="http://localhost/mobile">Signup</a></li>
-<li><a href="http://localhost/mobile/login.html">Login</a></li>
+<li><a href="index.html">Signup</a></li>
+<li><a href="login.html">Login</a></li>
 <li><a href="#">Contact Us</a></li>
 <li><a href="#">About Us</a></li>
 </ul>
 </div> 
 <div data-role="main" class="ui-content">
-<h3>You Want To Participate With Us</h3>
+<h3>Want to join with us</h3>
+<h5>Then for what you are waiting just fill the form and meet us</h5>
 <form method="post" action="demoform.asp">
       <div class="ui-field-contain">
         <label for="fullname">Full name:</label>
-        <input type="text" name="fullname" id="fullname"> 
+        <input type="text" name="fullname" id="fullname"required> 
 		<label for="fullname">First name:</label>
-        <input type="text" name="firstname" id="firstname">
+        <input type="text" name="firstname" id="firstname" required>
 		<label for="fullname">Last name:</label>
-        <input type="text" name="lastname" id="lastname">		
+        <input type="text" name="lastname" id="lastname" required>		
         <label for="bday">Date of Birth:</label>
-        <input type="date" name="bday" id="bday">
+        <input type="date" name="bday" id="bday" required>
         <label for="email">E-mail:</label>
-        <input type="email" name="email" id="email" placeholder="Your email..">
+        <input type="email" name="email" id="email" required placeholder="Your email..">
       </div>
       <input type="submit" data-inline="true" value="Submit">
     </form>
 </div>
 
 <div data-role="footer">
-<h1>Life Achieve</h1>
+<h5>Add color to your life</h5>
 </div>
 </div> 
 
