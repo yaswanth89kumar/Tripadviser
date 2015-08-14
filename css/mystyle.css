@@ -3,6 +3,11 @@ position:fixed;
 width:100%;
 z-index:9999;
 margin-bottom:5%;
+background:#FF9933 !important;
+}
+.ui_footer{
+background:#138808 !important;
+color:#FFF !important;
 }
 .ui-content{
 margin-top:3%;
